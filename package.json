@@ -1,0 +1,30 @@
+{
+  "name": "takhti",
+  "version": "1.0.0",
+  "description": "A rich text editor",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prayogaha/takhti.git"
+  },
+  "keywords": [
+    "editor",
+    "text",
+    "editor",
+    "rich",
+    "text"
+  ],
+  "author": "Deepak Maurya",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/prayogaha/takhti/issues"
+  },
+  "homepage": "https://github.com/prayogaha/takhti#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
