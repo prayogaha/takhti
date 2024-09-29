@@ -2,10 +2,6 @@
 dist/
 build/
 
-# If not using a dedicated output directory:
-*.js
-*.js.map
-
 # node modules folder
 node_modules/
 
