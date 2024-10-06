@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A rich text editor",
   "main": "dist/takhi.js",
+  "main": "dist/takhi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack serve",
