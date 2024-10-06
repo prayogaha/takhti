@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="takhti">
+  <meta name="description" content="A rich text editor">
+  <meta name="keywords" content="">
+  <title>takhti</title>
+  <link rel="stylesheet" type="text/css" href="./dist/css/takhti.css">
+</head>
+
+<body>
+  <main class="container">
+    <div id="takhti">
+      <textarea></textarea>
+      <article class="takhti-container">
+        <header class="takhti-header">
+          <div class="takhti-toolkit">
+            <div class="takhti-toolbar-1">
+              <div class="takhti-font-group">
+                <div class="takhti-font-size">
+                  <div class="takhti-font-size-selection" contenteditable>&ndash;&ndash;</div>
+                  <ul class="takhti-font-size-options">
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                  </ul>
+                </div>
+                <div class="takhti-font-unit">
+                  <div class="takhti-font-unit-selection">px</div>
+                  <ul class="takhti-font-size-options">
+                    <li>px</li>
+                    <li>pt</li>
+                    <li>em</li>
+                    <li>rem</li>
+                  </ul>
+                </div>
+                <div class="takhti-font-family">
+                  <div class="takhti-font-family-selection" contenteditable>&ndash;&ndash;</div>
+                  <ul class="takhti-font-family-options">
+                    <li>Helvetica, Arial, sans-serif</li>
+                    <li>'Times New Roman', Times, serif</li>
+                    <li>'Courier New', Courier, monospace</li>
+                    <li>Verdana, Geneva, Tahoma, sans-serif</li>
+                    <li>Georgia, 'Times New Roman', Times, serif</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section class="takhti-editor" contenteditable>
+        </section>
+        <footer class="takhti-footer">
+          <p>&copy; takhti</p>
+        </footer>
+      </article>
+    </div>
+  </main>
+  <script type="text/javascript" src="./dist/takhti.js"></script>
+  <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
