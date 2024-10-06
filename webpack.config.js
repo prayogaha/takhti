@@ -5,7 +5,7 @@ module.exports = {
     entry: ["./src/index.ts", "./public/scss/main.scss"],
     output: {
         filename: 'takhti.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'public/dist'),
         globalObject: 'this',
         library: {
             name: 'takhti',
@@ -25,7 +25,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: './css/[name].css',
+            filename: './css/takhti.css',
             chunkFilename: './css/[id].css',
             linkType: 'text/css',
         }),
